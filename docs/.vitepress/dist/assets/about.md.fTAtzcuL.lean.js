@@ -1,0 +1,1 @@
+import{_ as e,c as r,o as a,ae as d}from"./chunks/framework.Dh1jimFm.js";const b=JSON.parse('{"title":"联系我们","description":"","frontmatter":{},"headers":[],"relativePath":"about.md","filePath":"about.md"}'),l={name:"about.md"};function i(o,t,n,h,s,c){return a(),r("div",null,t[0]||(t[0]=[d("",13)]))}const p=e(l,[["render",i]]);export{b as __pageData,p as default};

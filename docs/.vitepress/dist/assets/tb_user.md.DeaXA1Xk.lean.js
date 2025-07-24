@@ -1,0 +1,1 @@
+import{_ as t,c as r,o as a,ae as o}from"./chunks/framework.Dh1jimFm.js";const _=JSON.parse('{"title":"实验室公共账号","description":"","frontmatter":{},"headers":[],"relativePath":"tb/user.md","filePath":"tb/user.md"}'),c={name:"tb/user.md"};function s(l,e,p,i,n,d){return a(),r("div",null,e[0]||(e[0]=[o("",7)]))}const f=t(c,[["render",s]]);export{_ as __pageData,f as default};

@@ -1,0 +1,1 @@
+import{_ as e,c as t,o as r,ae as c}from"./chunks/framework.Dh1jimFm.js";const h=JSON.parse('{"title":"网安？","description":"","frontmatter":{},"headers":[],"relativePath":"start.md","filePath":"start.md"}'),o={name:"start.md"};function p(s,a,n,l,i,d){return r(),t("div",null,a[0]||(a[0]=[c("",14)]))}const _=e(o,[["render",p]]);export{h as __pageData,_ as default};
