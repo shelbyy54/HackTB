@@ -58,10 +58,9 @@ features:
 
 ## 非校园网访问本网站方法
 
-登录 https://vpn.dgut.edu.cn，根据指引使用零信任vpn访问
-
-DGUT::Cyber 平台及其附属平台不支持webvpn访问
+登录 https://vpn.dgut.edu.cn，根据指引使用零信任vpn访问，目前DGUT::Cyber 平台及其附属平台不支持webvpn访问
 
 
 ## 一起来编写此平台：
-在 https://github.com/shelbyy54/HackTB 打开，根据指引提交pr，通过后自动更新。
+在 https://github.com/shelbyy54/HackTB 打开，根据指引提交pr，通过后修改后的页面会自动更新。
+
