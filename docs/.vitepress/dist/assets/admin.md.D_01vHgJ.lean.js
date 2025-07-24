@@ -1,1 +1,0 @@
-import{_ as t,c as a,o as n,j as r}from"./chunks/framework.Dh1jimFm.js";const f=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"admin.md","filePath":"admin.md"}'),o={name:"admin.md"};function s(d,e,i,c,m,p){return n(),a("div",null,e[0]||(e[0]=[r("p",null,"不是哥么当ctf刷呢？",-1)]))}const _=t(o,[["render",s]]);export{f as __pageData,_ as default};

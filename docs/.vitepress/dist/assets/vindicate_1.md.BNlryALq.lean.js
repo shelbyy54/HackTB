@@ -1,1 +1,0 @@
-import{_ as a,c as t,o as i,ae as o}from"./chunks/framework.Dh1jimFm.js";const m=JSON.parse('{"title":"前言","description":"","frontmatter":{},"headers":[],"relativePath":"vindicate/1.md","filePath":"vindicate/1.md"}'),r={name:"vindicate/1.md"};function l(c,e,n,s,p,_){return i(),t("div",null,e[0]||(e[0]=[o("",7)]))}const f=a(r,[["render",l]]);export{m as __pageData,f as default};
