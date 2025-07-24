@@ -42,28 +42,17 @@ export default defineConfig({
     ],
     vite: {
         plugins: [
-            AutoSidebar({
-                // 要扫描的目录（相对于根目录）
-                contentDirs: ['docs'], // 或 ['.'] 表示根目录（根据你项目目录结构调整）
-
-                // 是否递归子目录
-                deep: true,
-
-                // 是否自动折叠
-                collapse: false,
-
-                // 展示的最大目录深度（默认 2）
-                depth: 10,
-
-                // 文件排序方式（可选）
-                sort: 'asc',
-
-                // 排除某些目录或文件（可选）
-                // ignore: ['node_modules', '.vitepress'],
-
-                // 是否启用中文标题自动转拼音路由（可选）
-                // useTitleFromFile: true,
-            })
+        AutoSidebar({
+            contentDirs: ['/'],  // 递归扫描 docs 下的所有目录
+            deep: true,             // 启用递归子目录
+            collapse: false,        // 全部展开
+            depth: 10,              // 足够大的深度
+            sort: 'asc',            // 排序
+            ignore: [
+                ".vitepress",
+                "public"
+            ],             // 忽略任何目录
+        })
         ]
     }
 });
