@@ -1,5 +1,4 @@
 import { defineConfig } from 'vitepress'
-import sidebar from './sidebar.ts'
 
 export default defineConfig({
     title: 'DGUT::Cyber', // 网站标题
@@ -21,7 +20,7 @@ export default defineConfig({
                 text: "关于",
                 items: [
                     { text: '联系我们', link: '/Vindicate/About' },
-                    { text: '破坏性更新日志', link: '/Vindicate/Update' },
+                    { text: '更新日志', link: '/Vindicate/Update' },
                 ]
             },
         ],
@@ -29,6 +28,23 @@ export default defineConfig({
             message: '由 HackTB实验室 提供技术支持',
             copyright: `Copyright © 2015-${new Date().getFullYear()} DGUT::Cyber` // 动态生成年份
         },
+         sidebar: [//侧边栏
+            {
+                text: 'HackTB实验室',
+                items: [
+                { text: '实验室', link: '/HackTB/' },
+                { text: 'Ftp', link: '/HackTB/Ftp' },
+                { text: '实验室成员', link: '/HackTB/TeamMembers' },
+                ]
+            },
+            {
+                text: '关于',
+                items: [
+                { text: '此网站', link: '/Vindicate/About' },
+                { text: '更新日志', link: '/Vindicate/Update' },
+                ]
+            }
+        ]
     },
     head: [
         ['meta', { name: 'keywords', content: 'DGUT::Cyber' }],
@@ -36,5 +52,5 @@ export default defineConfig({
         // 设置 Favicon
         ['link', { rel: 'icon', type: 'image/png', href: '/img/logo.png' }]
     ],
-    sidebar //侧边栏
+    
 });
